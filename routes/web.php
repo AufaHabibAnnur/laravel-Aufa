@@ -52,5 +52,3 @@ Route::post('question/store', [QuestionController::class, 'store'])
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::resource('pelanggan', PelangganController::class);
-
-route('pelanggan.update', $dataPelanggan->pelanggan_id);
